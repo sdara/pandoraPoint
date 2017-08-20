@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+	"content_scripts": [{
+		"js": ["pandorapoint.js"],
+		"matches": ["https://www.pandora.com/*"]
+	}],
+	"web_accessible_resources": ["pandorapoint_script.js"],
+  "name": "Pandorapoint",
+  "description": "Logs Pandora Songs to a MySQL DB via pandorapoint.php",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "pandorapoint.png",
+   "default_popup": "pandorapoint.html"
+  },
+  "permissions": [
+   "activeTab"
+   ]
+}

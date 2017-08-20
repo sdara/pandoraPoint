@@ -1,0 +1,1 @@
+Pandora Point was a chrome extension that would parse the Pandora web player HTML and keep a history of songs listened to in a MySQL table. When Pandora started requiring HTTPS, localhost/WAMP implementation stopped working.
